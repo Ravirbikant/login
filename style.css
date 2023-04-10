@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+.bg-img {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  height: 300px;
+}
+
+.logo {
+  margin-left: 3%;
+  margin-top: 3%;
+  height: 60px;
+  width: 60px;
+}
+
+.welcome-message {
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.login-div {
+  padding-top: 2%;
+}
+
+.login-options-container {
+  position: relative;
+  width: 60%;
+  margin: auto;
+}
+
+.remove {
+  display: none;
+}
+
+.login-options {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  width: 50%;
+}
+
+input {
+  background-color: #f0efff;
+  width: 100%;
+  color: #7f77fc;
+  height: 40px;
+  border: none;
+  margin-bottom: 10px;
+  padding-left: 3%;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #7f77fc;
+  width: 100%;
+  color: #fff;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+p {
+  color: #ccc8fc;
+  font-size: 0.8rem;
+}
+
+.fa-brands {
+  color: #7f77fc;
+}
+
+.fa-brands:hover {
+  color: #2c22b9;
+}
+
+.forgot {
+  text-align: right;
+}
+
+.continue {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.sign-up {
+  margin-top: 0;
+}
+
+span {
+  color: #7f77fc;
+}
+
+span:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2c22b9;
+  cursor: pointer;
+}
+
+.forgot:hover {
+  color: #2c22b9;
+  cursor: pointer;
+}
+
+.fa {
+  color: #7f77fc;
+  position: absolute;
+  margin-top: 12px;
+  margin-left: -10%;
+}
+
+.fa:hover {
+  color: #2c22b9;
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: #7f77fc;
+  opacity: 0.5;
+}
+
+@media (max-width: 770px) and (min-width: 500px) {
+  .bg-img {
+    display: none;
+  }
+
+  .login-options-container {
+    width: 90%;
+  }
+
+  .login-options {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 500px) {
+  .bg-img {
+    display: none;
+  }
+
+  .login-options-container {
+    width: 95%;
+  }
+
+  .logo {
+    height: 12%;
+    width: 15%;
+  }
+
+  .welcome-message {
+    padding-top: 10%;
+    padding-left: 4%;
+    margin-bottom: 20px;
+  }
+
+  .login-options {
+    margin-top: 0;
+  }
+
+  .forgot {
+    margin-top: 1%;
+  }
+
+  .continue {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+}
